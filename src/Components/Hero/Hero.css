@@ -1,45 +1,7 @@
 .hero-img {
   width: 100%;
   min-height: 100vh;
-  background: url("../../assets/portrait-two-male-barbers-looking-camera.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.414), rgba(0, 0, 0, 0.414)), url("../../assets/portrait-two-male-barbers-looking-camera.jpg");
   background-size: cover;
   background-position: center;
-}
-.hero {
-  position: relative;
-  top: -100px;
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  margin: 20px 100px;
-  background-color: rgba(0, 0, 0, 0.885);
-  color: white;
-  border-radius: 10px;
-  height: 130px;
-}
-.hero-info {
-  flex: 1;
-  padding: 20px;
-}
-.hero-info h3 {
-  margin-bottom: 15px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.info-content {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-}
-
-p {
-  font-size: 13px;
-}
-
-i {
-  font-size: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }

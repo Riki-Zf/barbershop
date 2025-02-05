@@ -4,3 +4,11 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+body {
+  background-color: #000000;
+  color: #fff;
+}
+.container {
+  padding-right: 10%;
+  padding-left: 10%;
+}

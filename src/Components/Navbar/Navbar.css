@@ -1,0 +1,43 @@
+nav {
+  width: 100%;
+  color: #76abae;
+  font-weight: 600;
+  padding: 10px 20px; /* More padding for better spacing */
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center; /* Center the entire navigation */
+  align-items: center;
+  z-index: 100; /* Increased z-index for better stacking */
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px; /* Limit maximum width */
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 20px; /* Adjusted margin */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-size: 13px;
+}
+
+.logo {
+  width: 120px;
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 100px; /* More space around the logo */
+}
+.scrolled {
+  background-color: #000000;
+  transition: 0.5s;
+}
