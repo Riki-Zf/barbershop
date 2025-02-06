@@ -1,6 +1,6 @@
 .service {
   width: 90%;
-  margin-top: 50px;
+  margin: 80px auto;
   display: flex;
   align-items: center;
 }
@@ -9,7 +9,6 @@
 }
 .service-right {
   flex: 1.5;
-  border: 1px solid #76abae;
   padding: 20px;
   border-radius: 10px;
 }

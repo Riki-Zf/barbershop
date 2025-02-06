@@ -11,7 +11,10 @@ const Service = ({ children }) => {
 
           <div className="srv-info">
             <h3>judul</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ea, aspernatur ut vel est in?</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus obcaecati asperiores aliquid tenetur, voluptatum expedita, necessitatibus placeat aperiam architecto nemo iusto iure fugiat explicabo laborum dolor error dicta
+              accusamus sunt.
+            </p>
           </div>
         </div>
       </div>

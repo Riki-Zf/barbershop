@@ -16,7 +16,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+
   max-width: 1200px; /* Limit maximum width */
   margin: 0;
   padding: 0;
@@ -29,7 +29,7 @@ nav ul li {
   letter-spacing: 1px;
   cursor: pointer;
   transition: color 0.3s ease;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .logo {
