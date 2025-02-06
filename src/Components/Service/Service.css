@@ -1,0 +1,37 @@
+.service {
+  width: 90%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+.service-left {
+  flex: 1;
+}
+.service-right {
+  flex: 1.5;
+  border: 1px solid #76abae;
+  padding: 20px;
+  border-radius: 10px;
+}
+.card-slider {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+img {
+  border-radius: 10px;
+  width: 200px;
+  height: 180px;
+}
+.srv-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.srv-info h3 {
+  text-transform: uppercase;
+  color: #76abae;
+}
+.srv-info p {
+  margin-top: 5px;
+}
