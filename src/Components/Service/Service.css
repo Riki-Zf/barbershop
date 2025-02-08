@@ -35,14 +35,14 @@
 }
 .slider ul {
   display: flex;
-  width: 200%;
+  width: 300%;
   overflow-x: hidden;
   transition: 0.5s;
 }
 .slider ul li {
   list-style: none;
   padding: 15px;
-  width: 50%;
+  width: 33.33%;
 }
 .card-slider {
   display: flex;
