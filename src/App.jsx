@@ -5,6 +5,7 @@ import Card from "./Components/Card/Card";
 import Heroinfo from "./Components/HeroInfo/Heroinfo";
 import Service from "./Components/Service/Service";
 import Pricelist from "./Components/Pricelist/Pricelist";
+import Trend from "./Components/Trend/Trend";
 
 const App = () => {
   return (
@@ -42,6 +43,15 @@ const App = () => {
         <Pricelist>
           <Title title="Paket/Harga" subTitle="" showButton={false} />
         </Pricelist>
+        <Title
+          title={
+            <>
+              inspirasi <br />
+              gaya rambut <br />
+            </>
+          }
+        />
+        <Trend />
       </div>
     </div>
   );

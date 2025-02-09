@@ -1,0 +1,13 @@
+.trend {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.video-right,
+.video-left {
+  flex-basis: 50%;
+  width: 100%;
+  object-fit: cover;
+}

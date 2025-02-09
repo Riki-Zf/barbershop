@@ -1,6 +1,45 @@
-.harga {
+/* Pricelist.css */
+.pricelist {
   width: 90%;
-  margin: 5px auto;
+  margin: 0 auto;
+  padding: 0 10%;
+}
+
+/* Override Title styles khusus dalam Pricelist */
+.pricelist .title-section {
+  align-items: center; /* Override dari flex-start ke center */
+  text-align: center;
+}
+
+.pricelist .title {
+  text-align: center;
+}
+
+.pricelist .subtitle {
+  text-align: center;
+}
+
+.harga {
   display: flex;
   justify-content: center;
+  gap: 20px;
+  border: 2px dashed #76abae;
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 80px;
+}
+
+.price-right {
+  flex: 1;
+}
+.price-left {
+  flex: 1;
+}
+.info-list {
+  margin: 20px;
+}
+.info-list h3 {
+  margin-bottom: 10px;
+  color: #76abae;
 }
