@@ -5,18 +5,17 @@ const Service = ({ children }) => {
   const slider = useRef();
   let tx = 0;
 
-  //perbaiki juga perhitungan logic slider
+  //slider logic
   const slideForward = () => {
     if (tx > -60) {
-      // Batas sekitar -67 untuk memungkinkan slide ke posisi terakhir
-      tx -= 33.33; // Bergerak per 33.33% untuk setiap slide
+      tx -= 33.33;
     }
     slider.current.style.transform = `translateX(${tx}%)`;
   };
 
   const slideBackward = () => {
     if (tx < 0) {
-      tx += 33.33; // Kembali per 33.33%
+      tx += 33.33;
     }
     slider.current.style.transform = `translateX(${tx}%)`;
   };

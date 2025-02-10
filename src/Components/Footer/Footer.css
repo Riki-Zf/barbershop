@@ -1,0 +1,22 @@
+.footer {
+  width: 70%;
+  margin: 80px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-info {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.map {
+  display: flex;
+  flex-direction: column;
+}

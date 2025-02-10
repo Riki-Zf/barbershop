@@ -6,6 +6,7 @@ import Heroinfo from "./Components/HeroInfo/Heroinfo";
 import Service from "./Components/Service/Service";
 import Pricelist from "./Components/Pricelist/Pricelist";
 import Trend from "./Components/Trend/Trend";
+import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
@@ -53,6 +54,7 @@ const App = () => {
         />
         <Trend />
       </div>
+      <Footer />
     </div>
   );
 };
