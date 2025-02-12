@@ -47,3 +47,82 @@ i {
   justify-content: flex-end;
   color: #76abae;
 }
+
+/* Slider Controls */
+.slider-button {
+  background: none;
+  border: none;
+  color: #76abae;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-button.prev {
+  left: 10px;
+}
+
+.slider-button.next {
+  right: 10px;
+}
+
+.slider-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  margin: 0 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.dot.active {
+  opacity: 1;
+  background-color: #76abae;
+}
+
+/* Desktop View */
+.desktop-view {
+  display: flex;
+}
+
+.mobile-view {
+  display: none;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+  .desktop-view {
+    display: none;
+  }
+
+  .mobile-view {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    border-radius: 0;
+    height: 200px;
+  }
+
+  .mobile-view .hero-info {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .mobile-view .info-content {
+    justify-content: center;
+  }
+}
