@@ -1,8 +1,10 @@
 .trend {
   width: 90%;
-  margin: 20px auto;
+
+  margin: 0 auto; /* Center secara horizontal */
   display: flex;
-  justify-content: center;
+  justify-content: center; /* Center konten secara horizontal */
+  align-items: center; /* Center konten secara vertikal */
   gap: 20px;
 }
 .video-right,

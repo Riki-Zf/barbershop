@@ -5,3 +5,15 @@
   background-size: cover;
   background-position: center;
 }
+@media screen and (max-width: 768px) {
+  .hero-img {
+    min-height: 80vh; /* Slightly shorter on tablets */
+    background-position: top center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-img {
+    min-height: 60vh; /* Even shorter on mobile */
+  }
+}
