@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import "./Service.css";
 import srvImg from "../../assets/img1.jpg";
+
 const Service = ({ children }) => {
   const slider = useRef();
   let tx = 0;

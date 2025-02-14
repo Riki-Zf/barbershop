@@ -3,6 +3,7 @@
   margin: 80px auto;
   display: flex;
   align-items: center;
+  position: relative;
 }
 .service-left {
   flex: 1;
@@ -63,4 +64,83 @@ img {
 }
 .srv-info p {
   margin-top: 5px;
+}
+
+/* responsive layout */
+/* 2xl */
+@media (max-width: 1536px) {
+  .service {
+    width: 95%;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .service-right {
+    flex: 1.2;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .service {
+    flex-direction: column;
+  }
+  .service-left {
+    width: 100%;
+  }
+  .service-right {
+    width: 100%;
+    max-width: 800px;
+  }
+  .card-slider {
+    align-items: center;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .service {
+    margin: 40px auto;
+  }
+  .card-slider {
+    flex-direction: column;
+    text-align: center;
+  }
+  .srv-info {
+    align-items: center;
+  }
+  img {
+    width: 250px;
+    width: 200px;
+  }
+  .service-right .next-btn,
+  .service-right .back-btn {
+    top: 40%;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .service {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .service-right {
+    padding: 15px;
+  }
+
+  img {
+    width: 50%;
+    max-width: 300px;
+    height: 180px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .service-right {
+    padding: 10px;
+  }
 }

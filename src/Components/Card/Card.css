@@ -33,3 +33,59 @@
   text-transform: uppercase;
   font-size: 14px;
 }
+
+/* responsive */
+/* 2xl */
+@media (max-width: 1536px) {
+  .stat-card {
+    flex-basis: 20%;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .stat-card {
+    flex-basis: 25%;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .title {
+    font-size: 37px;
+  }
+  .stat-card {
+    flex-basis: 40%;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .stat-card {
+    flex-basis: 45%;
+    width: 180px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .title {
+    font-size: 30px;
+  }
+  .stat-card {
+    flex-basis: 100%;
+    width: 200px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .stat-card {
+    flex-basis: 100%;
+    width: 200px;
+  }
+}
